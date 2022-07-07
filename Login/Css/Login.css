@@ -1,3 +1,7 @@
+
+
+
+
 .container {
     display: flex;
     flex-direction: column;
@@ -22,19 +26,19 @@ body{
 
 .row-main-page-left{
     height: 460px;
-    background-image: linear-gradient(to left bottom, #f6585e, #f75668, #f65572, #f5547c, #f35586);
+    background-image: linear-gradient(to left bottom, var(--pink-dark),  var(--pink-middle), var(--pink-light));
 }
 .row-main-page-right{
     height: 460px;
-    background-color: white;
+    background-color: var(--white-lighter);
     padding: 24px;
 }
 
 .input-form-login {
     border-radius: 50px;
     border: 1px solid transparent;
-    color: #000;
-    background: rgba(0, 0, 0, .05);
+    color: var(--black-darker);
+    background: var(--gray-light);
     width: 100%;
     transition: 0.5s;
     -webkit-transition: 0.5s;
@@ -42,17 +46,17 @@ body{
 }
 
 .btn-form-login {
-    background-image: linear-gradient(to left bottom, #f75959, #f85665, #f75570, #f6547c, #f35587);
+    background-image: linear-gradient(to left bottom, var(--pink-dark),  var(--pink-middle), var(--pink-light));
     border: none;
     width: 100%;
     border-radius: 50px;
     height: 48px;
-    color: white;
+    color: var(--white-lighter);
 }
 
 .login-account {
-    border: 1px solid rgba(0,0,0,.05);
-    background-color: white;
+    border: 1px solid var(--gray-light);
+    background-color: var();
     width: 40px;
     height: 40px;
     border-radius: 100%; 
@@ -62,24 +66,24 @@ body{
 }
 .login-account:hover
 {
-background-color: #f35587;
+background-color: var(--pink-light);
 
 }
 .a-forgot-password
 {
-    color: gray;
+    color: var(--gray-middle);
     text-decoration: none;
     background-color: transparent;
     transition: 0.5s;
 }
 .a-forgot-password:hover{
-    color: #F55774;
+    color: var(--pink-middle);
     
     }
 
 .label-remember-password
 {
-    color: gray;
+    color: var(--gray-middle);
 }
 
 
@@ -87,7 +91,7 @@ background-color: #f35587;
 .input-form-login:focus
 {
    
-    border:1px solid #F55774;;
+    border:1px solid var(--pink-middle);
 }
 
 input::-webkit-input-placeholder {
@@ -97,16 +101,16 @@ input::-webkit-input-placeholder {
 
 a>i
 {
-    color: gray;
+    color: var(--gray-middle);
     transition: 0.5s;
 }
 .login-account:hover>i:hover
 {
-    color: white;
+    color: var(--white-lighter);
 }
 .login-account:hover
 {
-background-color: #f35587;
+background-color: var(--pink-light);
 
 }
 .input-check-remember-me
@@ -114,16 +118,16 @@ background-color: #f35587;
     transition: 0.5s;
 }
 .input-check-remember-me:not(checked){
-    background-color: white;
+    background-color: var(--white-lighter);
    
 }
 .input-check-remember-me:checked{
-    background-color: #f35586;
+    background-color: var(--pink-light);
     border: none;
     box-shadow: none;
 }
 .input-check-remember-me:focus{
-    background-color: #f35586;
+    background-color: var(--pink-light);
     border: none;
     box-shadow: none;
 }
