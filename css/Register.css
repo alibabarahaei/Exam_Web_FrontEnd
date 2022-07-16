@@ -117,17 +117,3 @@ background-color: var(--pink-light);
 {
     transition: 0.5s;
 }
-.input-check-remember-me:not(checked){
-    background-color: var(--white-lighter);
-   
-}
-.input-check-remember-me:checked{
-    background-color: var(--pink-light);
-    border: none;
-    box-shadow: none;
-}
-.input-check-remember-me:focus{
-    background-color: var(--pink-light);
-    border: none;
-    box-shadow: none;
-}
