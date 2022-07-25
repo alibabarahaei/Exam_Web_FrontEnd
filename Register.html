@@ -9,6 +9,8 @@
     integrity="sha384-+qdLaIRZfNu4cVPK/PxJJEy0B0f3Ugv8i482AKY7gwXwhaCroABd086ybrVKTa0q" crossorigin="anonymous">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/register.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+
 
 
 </head>
@@ -24,25 +26,25 @@
         <div class="row">
           <form action="">
             <div class="mb-2">
-              <img src="img/people.svg" alt="">
+              <img  alt=""  class="username-icon">
               نام کاربری
             </div>
             <div class="row">
               <div class="col">
-                <input class=" form-control-lg input-form-login mb-3" type="text" placeholder="نام کاربری" ">
+                <input class=" form-control-lg input-form-login mb-3" type="text" placeholder="نام کاربری" >
                </div>
               </div>
             <div class=" mb-2">
-                <img src="img/lock.svg" alt="">
+                <img  alt=""  class="password-icon">
                 رمز عبور
               </div>
               <div class="row">
                 <div class="col">
-                  <input class=" form-control-lg input-form-login mb-4" type="text" placeholder="رمز عبور">
+                  <input class=" form-control-lg input-form-login mb-3" type="text" placeholder="رمز عبور">
                 </div>
               </div>
               <div class="mb-2">
-                <img src="img/envelope.svg" alt="">
+                <img  alt="" class="email-icon">
                 ایمیل
               </div>
               <div class="row">
@@ -50,9 +52,15 @@
                   <input class=" form-control-lg input-form-login mb-3" type="text" placeholder="ایمیل">
                 </div>
               </div>
-              <button class="btn-form-login mb-3">
+              <button class="btn-form-login mb-2 mt-2">
                 ثبت نام
               </button>
+              <div class="row justify-content-center login-accounts">
+               
+                <a href="#" class="d-flex align-items-center justify-content-center login-account"><i
+                    class="fa-brands fa-google"></i></a>
+               
+              </div>
           </form>
         </div>
       </div>

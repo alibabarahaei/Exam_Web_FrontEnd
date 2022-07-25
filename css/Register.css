@@ -25,11 +25,11 @@ body{
 }
 
 .row-main-page-left{
-    height: 460px;
+    height: 490px;
     background-image: linear-gradient(to left bottom, var(--pink-dark),  var(--pink-middle), var(--pink-light));
 }
 .row-main-page-right{
-    height: 460px;
+    height: 490px;
     background-color: var(--white-lighter);
     padding: 24px;
 }
@@ -116,4 +116,19 @@ background-color: var(--pink-light);
 .input-check-remember-me
 {
     transition: 0.5s;
+}
+
+.username-icon
+{
+    content: url(../img/people.svg);
+}
+
+.password-icon
+{
+    content: url(../img/people.svg);
+}
+
+.email-icon
+{
+    content: url(../img/people.svg);
 }
