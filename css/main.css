@@ -84,7 +84,7 @@ a {
 }
 
 
-input[type="checkbox"]:not(checked){
+input[type="checkbox"]:not(:checked){
     background-color: var(--white-lighter);
    
 }
@@ -95,9 +95,9 @@ input[type="checkbox"]:checked{
 }
 
 
-input[type="checkbox"]:focus
+input[type="checkbox"]:active
 {
-    background-color: var(--pink-light);
+    background-color: var(--white-lighter);
     border: none;
     box-shadow: none;
 }
